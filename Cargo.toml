@@ -1,0 +1,17 @@
+[package]
+name = "cs2-autoaccept-linux"
+version = "1.2.0"
+edition = "2021"
+description = "Automatically accept CS2 match invitations on Linux"
+license = "GPL-3.0"
+
+[[bin]]
+name = "cs2-autoaccept-linux"
+path = "src/main.rs"
+
+[dependencies]
+anyhow  = "1"
+libc    = "0.2"
+nix     = { version = "0.29", features = ["ioctl"] }
+png     = "0.17"
+x11rb   = { version = "0.13", features = ["xtest"] }
