@@ -1,1 +1,1 @@
-rust rewrite whatever blabla
+rust rewrite
