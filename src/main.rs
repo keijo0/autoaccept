@@ -11,7 +11,7 @@ use process_image::process_image;
 const INTERVAL: u64 = 2500;
 
 fn main() -> Result<()> {
-    print!("nigga im drunk everyday\n");
+    print!("O_o\n");
 
     println!(
         "Checking your screen for a 'Accept' window every {} second(s)...\n",
